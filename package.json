@@ -1,0 +1,32 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "forkify project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaqal7/Forkify-js.git"
+  },
+  "author": "Tomasz Śmierzchała",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaqal7/Forkify-js/issues"
+  },
+  "homepage": "https://github.com/Shaqal7/Forkify-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "core-js": "^3.6.4",
+    "install": "^0.13.0",
+    "npm": "^6.13.6",
+    "regenerator-runtime": "^0.13.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {}
+}
