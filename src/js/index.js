@@ -1,2 +1,2 @@
 // Global app controller
-import Search from "../../../final/src/js/models/Search";
+import Search from "./model/Search";
