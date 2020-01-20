@@ -1,8 +1,14 @@
 import axios from "axios";
 
 async function getResults(query) {
-    const res = await axios(`https://forkify-api.herokuapp.com/api/search?&q=${query}`);
-    console.log(res);
+    try {
+        const res = await axios(`https://forkify-api.herokuapp.com/api/search?&q=${query}`);
+        const recipes = res.data.recipes;
+        console.log(recipes);
+    } catch (e) {
+        alert(e);
+    }
+
 }
 //const res = await Axios(`https://forkify-api.herokuapp.com/api/search?&q=${this.query}`);
 
