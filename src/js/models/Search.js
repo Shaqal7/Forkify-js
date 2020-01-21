@@ -1,4 +1,5 @@
-import axios from "axios";
+import axios from 'axios';
+//import { url } from '../config';
 
 export default class Search {
     constructor(query) {
