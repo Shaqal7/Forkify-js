@@ -105,7 +105,7 @@ const controlRecipe = async () => {
 ["hashchange", "load"].forEach(event => window.addEventListener(event, controlRecipe));
 
 /*
-* RECIPE CONTROLLER
+* LIST CONTROLLER
  */
 const controlList = () => {
     // Create a new list IF there in none yet
